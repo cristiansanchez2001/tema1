@@ -1,0 +1,22 @@
+baseURL :  "http://localhost:1313"
+languageCode : "ca-es"
+title : "Pizzeria del Port"
+theme: "ananke"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu: 
+  main:
+    - name: On estem?
+      url: /localizacio
+      weight: -100
+    - name: Sobre nosaltres
+      url: /about
+      weight: -110
+    - name: La Carta
+      url: /carta/
+      weight: -110
+
+    
